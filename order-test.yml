@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Wanxiangdai2018
+    url: jdbc:mysql://bj-cdb-98fxjfrh.sql.tencentcdb.com:63617/sell?characterEncoding=utf-8&useSSl=false
+  jpa:
+    show-sql: true
+env: 
+  test--->
+label:
+  release
